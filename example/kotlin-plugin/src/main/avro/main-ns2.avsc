@@ -21,7 +21,6 @@
                     {
                         "type": "record",
                         "name": "B",
-                        "namespace": "ns2",
                         "fields": [
                             {
                                 "name": "field",

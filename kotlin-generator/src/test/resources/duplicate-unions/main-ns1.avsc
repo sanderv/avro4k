@@ -14,7 +14,7 @@
                         "fields": [
                             {
                                 "name": "field",
-                                "type": "string"
+                                "type": "int"
                             }
                         ]
                     },

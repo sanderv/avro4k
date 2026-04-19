@@ -10,7 +10,7 @@
                 "items": [
                     {
                         "type": "record",
-                        "name": "C",
+                        "name": "A",
                         "fields": [
                             {
                                 "name": "field",
@@ -20,11 +20,10 @@
                     },
                     {
                         "type": "record",
-                        "name": "D",
-                        "namespace": "ns2",
+                        "name": "B",
                         "fields": [
                             {
-                                "name": "something",
+                                "name": "field",
                                 "type": "int"
                             }
                         ]

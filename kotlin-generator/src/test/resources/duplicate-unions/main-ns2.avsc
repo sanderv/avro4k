@@ -1,0 +1,36 @@
+{
+    "type": "record",
+    "name": "Main",
+    "namespace": "ns2",
+    "fields": [
+        {
+            "name": "field",
+            "type": {
+                "type": "array",
+                "items": [
+                    {
+                        "type": "record",
+                        "name": "C",
+                        "fields": [
+                            {
+                                "name": "field",
+                                "type": "int"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "record",
+                        "name": "D",
+                        "namespace": "ns2",
+                        "fields": [
+                            {
+                                "name": "something",
+                                "type": "int"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
